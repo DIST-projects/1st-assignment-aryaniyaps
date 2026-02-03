@@ -1,0 +1,9 @@
+RPC server starting (sample run)
+
+2026-02-03 12:00:00 INFO RPC server listening on 0.0.0.0:8000
+
+Client output (sample):
+add(2,3) -> 5
+multiply(3.5,2) -> 7.0
+echo('hello') -> ECHO: hello
+get_time() -> Tue Feb  3 12:00:05 2026
