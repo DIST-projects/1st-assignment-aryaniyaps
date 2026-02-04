@@ -1,4 +1,4 @@
-# RMI (Java) Assignment
+cd ~/rmi# RMI (Java) Assignment
 
 This folder contains a small Java RMI example used for Assignment 1.
 

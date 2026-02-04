@@ -18,15 +18,17 @@ Security group: Allow port 5000 (HTTP too)
 
 SSH & Setup
 
-bash
+```bash
 ssh -i your-key.pem ubuntu@your-ec2-ip
 sudo apt update && sudo apt install docker.io -y
 sudo usermod -aG docker ubuntu  # Logout/login
 Deploy App
+```
 
-bash
+```bash
 git clone your-repo  # Or scp files
 cd project-folder
 docker build -t flask-app .
 docker run -d -p 5000:5000 --name myapp flask-app
 Check it! → http://your-ec2-ip:5000
+```
